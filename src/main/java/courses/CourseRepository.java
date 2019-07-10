@@ -10,4 +10,9 @@ public interface CourseRepository extends CrudRepository<Course, Long> {
 	
 	Collection<Course> findByTopicsId(long id);
 
+	Course findByName(String courseName);
+
+	Collection<Course> findAllByOrderByNameAsc();
+
+
 }

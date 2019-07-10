@@ -30,7 +30,7 @@ public class Course  {
 		return id;
 	}
 	
-	public Object getName() {
+	public String getName() {
 		return name;
 	}
 	
